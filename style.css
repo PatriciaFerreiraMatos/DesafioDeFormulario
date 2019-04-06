@@ -1,0 +1,153 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family: 'Laila', serif;
+}
+body{
+	width:100%;
+	background-color: #8B008B;
+}
+a{
+	text-decoration:none;
+}
+.container_main{
+	width: 100%;
+	height:100%;
+	margin:5px;
+}
+.container_one{
+	padding:52px;
+}
+.img_form{
+	width:600px;
+	height:600px;
+	display: inline-block;
+}
+.blockOne{
+	width:570px;
+	height:600px;
+	padding: 7px;
+	display:inline-block;
+	position:relative;
+	bottom:176px;
+	right:10px;
+	background-color: #fff;
+}
+.title_container{
+	font-size: 20px;
+	margin-left:50px;
+	margin-top:50px;
+}
+.paragraphOne_blockOne{
+	font-size:18px;
+	margin-left:50px;
+	margin-top:10px;
+}
+.paragraphTwo_blockOne{
+	font-size:18px;
+	margin-left:50px;
+	margin-top:30px;
+}
+.firstName{
+	display:inline-flex;
+	position:relative;
+	font-size: 18px;
+	margin-left:50px;
+	top:10px;
+}
+.input_name{
+	height:30px;
+	position:relative;
+	right:82px;
+	top:25px;
+}
+.lastName{
+	display:inline-block;
+	position:relative;
+	font-size: 18px;
+	left: 237px;
+    bottom: 18px;
+}
+.input_lastName{
+	height:30px;
+	position:relative;
+	right:85px;
+    top:23px;
+}
+.phone{
+	display:inline-block;
+	position:relative;
+	font-size: 18px;
+	right:460px;
+    top:59px;
+}
+.input_phone{
+	height:30px;
+	position:relative;
+	right:47px;
+    top:23px;
+}
+.email{
+	display:inline-flex;
+	position:relative;
+	font-size: 18px;
+	left:3px;
+    top:29px;
+}
+.input_email{
+	height:30px;
+	position:relative;
+	right:47px;
+    top:23px;
+}
+.password{
+	display:inline-flex;
+	position:relative;
+	font-size: 18px;
+	right:420px;
+    top:88px;
+}
+.input_password{
+	position:relative;
+	right:70px;
+    top:23px;
+}
+.confirmPassword{
+	display:inline-flex;
+	position:relative;
+	font-size: 18px;
+	left: 0px;
+    top:58px;
+ }
+ .input_confirmPassword{
+	position:relative;
+	right:149px;
+    top:23px;
+ }
+ .receive_crowdrise, .terms{
+ 	display:inline-flex;
+	position:relative;
+	font-size: 18px;
+	right: 190px;
+    top: 94px;
+ }
+ .button_cadastra{
+ 	position:relative;
+ 	right: 108px;
+    top: 119px;
+ }
+.separation{
+	width: 100px;
+	height:4px;
+	position: relative;
+	top: 112px;
+    right: 186px;
+	background-color:#8B008B;
+}
+.paragraph_last{
+	position:relative;
+	font-size:18px;
+	right: 191px;
+    top: 128px;
+}
