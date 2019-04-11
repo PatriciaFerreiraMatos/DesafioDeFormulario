@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Register</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+	</head>
+	<body>
+		<main class="container_main">
+			<section class="container_one">
+				 <img src="assets/img_vnw.jpg" alt="turma do vai na web" class="img_form">
+				<div class="blockOne">
+					<h1 class="title_container">Welcome to CrowDrise</h1>
+					<p class="paragraphOne_blockOne">Let's get you all set up so you can verify your nonprofit and begin setting up your first campaign!</p>
+					<p class="paragraphTwo_blockOne">Already have an account? <a href="login.html">Log in</a></p>
+					<form>
+						<label class="firstName">
+							First Name
+							<input type="text" name="first name" placeholder="Nome" class="input_name" required="">
+						</label>
+						<labe class="lastName">
+							Last Name
+							<input type="text" name="last name" placeholder="Sobrenome" class="input_lastName" required="">
+						</label>
+						<label class="phone">
+							Phone
+							<input type="tel" name="phone" placeholder="(xx) x xxxx-xxxx" class="input_phone" required="">
+						</label>
+						<label class="email">
+							Email
+							<input type="email" name="email" placeholder="exemplo@exemplo.com" class="input_email" required="">
+						</label>
+						<label class="password">
+							PassWord
+							<input type="password" name="password" class="input_password" required="">
+						</label>
+						<label class="confirmPassword">
+							Confirm password
+							<input type="password" name="confirm_password" class="input_confirmPassword" required="">
+						</label>
+						<label class="receive_crowdrise receive">
+							<input type="checkbox" name="receber emails">Yes, I want to receive Crowdrise's emails
+						</label>
+						<label class="terms">
+							<input type="checkbox" name="terms" required="">I agree to the <a href=""> Terms, Privacy</a>and <a href="">Fess</a>
+						</label>
+						<button class="button_cadastra">Cadastra-se</button>
+						<hr class="separation">
+					</form>
+					<p class="paragraph_last">Don't work for a nonprofit? <a href="">You cant still fundcraise for one.</a></p>
+				</div>		
+			</section>
+		</main>
+	</body>
+</html>
